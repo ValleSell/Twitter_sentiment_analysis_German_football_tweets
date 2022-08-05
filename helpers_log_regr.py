@@ -74,14 +74,13 @@ def process_tweet_w_CISTEM (text):
 
 
 def build_freqs(tweets, ys):
-    """Build frequencies.
+    """
     Input:
-        tweets: a list of tweets
+        tweets: a list of tweets of length m
         ys: an m x 1 array with the sentiment label of each tweet
             (either 0 or 1)
     Output:
-        freqs: a dictionary mapping each (word, sentiment) pair to its
-        frequency
+        freqs: a dictionary mapping each (word, sentiment) pair to its frequency
     """
 
     # Start with an empty dictionary and populate it by looping over all tweets
